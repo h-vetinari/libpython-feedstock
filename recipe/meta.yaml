@@ -3,15 +3,16 @@ package:
   version: 2.3
 
 build:
-  number: 5
+  number: 6
   skip: true  # [not win]
+  python_version_independent: true
 
 requirements:
   host:
-    - python
+    - python {{ python_min }}.*
     - setuptools
   run:
-    - python
+    - python >={{ python_min }}
     - setuptools
 
 test:
