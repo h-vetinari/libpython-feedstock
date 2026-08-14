@@ -1,6 +1,6 @@
 package:
   name: distutils-activate-mingw
-  version: 2.3
+  version: "2.3"
 
 build:
   number: 6
