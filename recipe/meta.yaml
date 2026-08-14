@@ -21,13 +21,6 @@ test:
   files:
     - spam.c
 
-outputs:
-  - name: distutils-activate-mingw
-
-  - name: libpython
-    requirements:
-      - distutils-activate-mingw
-
 about:
   home: https://github.com/conda-forge/libpython-feedstock
   license: BSD-3-Clause
